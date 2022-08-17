@@ -24,3 +24,11 @@ rl.on("close", () => {
 
   process.exit();
 });
+
+// fs로 풀었을 경우!
+
+// var fs = require('fs');
+// var input = fs.readFileSync('/dev/stdin').toString().split(' ');
+// var a = parseInt(input[0]);
+// var b = parseInt(input[1]);
+// console.log(a + b);
