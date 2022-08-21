@@ -31,6 +31,7 @@ Merge Sort와 달리 Quick Sort는 배열을 비균등하게 분할한다.
 
 - 정복 (Conquer)
   부분 배열을 정렬한다. 부분 배열의 크기가 충분히 작지 않으면 순환 호출을 이용하여 다시 분할 정복 방법을 적용한다.
+
   ```java
   public void quickSort(int[] array, int left, int right) {
       if(left >= right) return;
@@ -43,8 +44,10 @@ Merge Sort와 달리 Quick Sort는 배열을 비균등하게 분할한다.
       quickSort(array, pivot+1, right); // 정복(Conquer)
   }
   ```
+
 - 분할 (Divide)
   입력 배열을 피벗을 기준으로 비균등하게 2개의 부분 배열 **(피벗을 중심으로 왼쪽 : 피벗보다 작은 요소들, 오른쪽 : 피벗보다 큰 요소들)**로 분할한다.
+
   ```java
   public int partition(int[] array, int left, int right) {
       /**
@@ -74,25 +77,36 @@ Merge Sort와 달리 Quick Sort는 배열을 비균등하게 분할한다.
 
 ## JavaScript Code
 
-```jsx
-function insertionSort(arr) {
-  for (let index = 1; index < arr.length; index++) {
-    // 1.
-    let temp = arr[index];
-    let prev = index - 1;
-    while (prev >= 0 && arr[prev] > temp) {
-      // 2.
-      arr[prev + 1] = arr[prev];
-      prev--;
-    }
-    arr[prev + 1] = temp; // 3.
-  }
+```javascript
+function quickSort(arr, left, right) {
+  if (left >= right) return;
+
+  // 분할
+  let pivot = partition(arr, left, right);
+
+  // 피벗은 제외한 2개의 부분 배열을 대상으로 순환 호출
+  quickSort(arr, left, pivot - 1); // 정복
+  quickSort(arr, pivot - 1, right); // 정복
 }
 
-let arr1 = [5, 4, 3, 2, 1];
-insertionSort(arr1);
+function partition(arr, left, right) {
+  const pivot = arr[right]; // 가장 오른쪽 값을 피벗으로 설정
+  let pivotIndex = left;
 
-console.log(arr1);
+  for (let i = left; i < right; i++) {
+    if (arr[i] < pivot) {
+      [arr[i], arr[pivotIndex]] = [arr[pivotIndex], arr[i]];
+      pivotIndex++;
+    }
+  }
+  [arr[pivotIndex], arr[right]] = [arr[right], arr[pivotIndex]];
+  return pivotIndex;
+}
+
+array = [7, -2, 4, 1, 6, 5, 0, -4, 2];
+quickSort(array, 0, array.length - 1);
+
+console.log(array);
 ```
 
 ## Quick Sort 개선
