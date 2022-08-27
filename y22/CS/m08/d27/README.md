@@ -6,7 +6,7 @@ Tree의 특성을 이해해보자
 
 </aside>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32a680d5-9f86-44ef-ad18-c833ae61e005/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/32a680d5-9f86-44ef-ad18-c833ae61e005/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061030Z&X-Amz-Expires=86400&X-Amz-Signature=180aa3ee5638d3ccd332ce1b944034532f067c3f74cf8fee81c2c3759bea8fbc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 트리는 값을 가진 `노드(Node)`와 이 노드들을 연결해주는 `간선(Edge)`으로 이루어져 있다.
 
@@ -46,7 +46,7 @@ Tree의 특성을 이해해보자
 
    각 루트를 순차적으로 먼저 방문하는 방식이다.
 
-   ![Preorder-traversal.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5850bf23-7506-44ec-8aa3-2392445157c0/Preorder-traversal.gif)
+   ![Preorder-traversal.gif]https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5850bf23-7506-44ec-8aa3-2392445157c0/Preorder-traversal.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061059Z&X-Amz-Expires=86400&X-Amz-Signature=b3d58d9c12475788041f205475c7c9a01e1cb1d5d88a66510fc0332501dd5ab5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Preorder-traversal.gif%22&x-id=GetObject)
 
    루트노드 → 왼쪽 서브트리 → 오른쪽 서브트리 순서로 순회하는 방식이며
 
@@ -58,7 +58,7 @@ Tree의 특성을 이해해보자
 
    왼쪽 하위 트리를 방문 후 루트를 방문하는 방식이다.
 
-   ![Inorder-traversal.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6b601cf-9bd3-41ee-b544-ad42b5a09602/Inorder-traversal.gif)
+   ![Inorder-traversal.gif](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6b601cf-9bd3-41ee-b544-ad42b5a09602/Inorder-traversal.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061122Z&X-Amz-Expires=86400&X-Amz-Signature=67c78bed2ebaf5bfe23f3ad2b520d4de0854c45da539ffdf7d66456e4c98e8d2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Inorder-traversal.gif%22&x-id=GetObject)
 
    왼쪽 서브트리 → 노드 →오른쪽 서브트리 순서로 순회하는 방식이며 `대칭 순회`라고도 불린다.
 
@@ -68,7 +68,7 @@ Tree의 특성을 이해해보자
 
    왼쪽 하위 트리부터 하위를 모드 방문 후 루트를 방문하는 방식이다.
 
-   ![Postorder-traversal.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/986ff70f-35dc-47a2-91da-e4c854e65641/Postorder-traversal.gif)
+   ![Postorder-traversal.gif](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/986ff70f-35dc-47a2-91da-e4c854e65641/Postorder-traversal.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061132Z&X-Amz-Expires=86400&X-Amz-Signature=24d10ca7c6a9676b3ec634d3a831092e515207e867b646e20c70fcdb165e25cd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Postorder-traversal.gif%22&x-id=GetObject)
 
    왼쪽 서브트리 → 오른쪽 서브트리 → 노드 순서로 순회하는 방식이다.
 
@@ -80,7 +80,7 @@ Tree의 특성을 이해해보자
 
    루트부터 계층별로 방문하는 방식이다.
 
-   ![Breadth-First-Search-Algorithm.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45895cb3-e10e-41da-ba63-8f1d859adcea/Breadth-First-Search-Algorithm.gif)
+   ![Breadth-First-Search-Algorithm.gif](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/45895cb3-e10e-41da-ba63-8f1d859adcea/Breadth-First-Search-Algorithm.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061143Z&X-Amz-Expires=86400&X-Amz-Signature=1a9b741002a588d1b7039b32e68d6033b42cc0b6c5154d9c1471259b29aa460e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Breadth-First-Search-Algorithm.gif%22&x-id=GetObject)
 
    루트 → 왼쪽 → 오른쪽 순으로 1계층씩 내려오면서 순회하는 방식이다.
 
@@ -96,7 +96,7 @@ Tree의 특성을 이해해보자
 
 ### 편향 이진 트리 (Skewed Binary Tree)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd047cb4-940f-437d-8512-b41dcb614e28/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dd047cb4-940f-437d-8512-b41dcb614e28/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061200Z&X-Amz-Expires=86400&X-Amz-Signature=7b0c16703185d1747b5c13c3ed5a94db20c8fd2907437603380f4b41f74d125d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 `편향 이진 트리`는 하나의 차수로만 이루어져 있는 경우를 의미한다.
 
@@ -104,7 +104,7 @@ Tree의 특성을 이해해보자
 
 ### 포화 이진 트리 (Full Binary Tree)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e5e28a5-2136-46b9-b750-983e8530c2b1/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e5e28a5-2136-46b9-b750-983e8530c2b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061213Z&X-Amz-Expires=86400&X-Amz-Signature=d39769ed45b92ff6a3172f60ebb71830120e0184568efd131ff02844e494a1c1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 `포화 이진 트리`는 ‘Leaf Node’를 제외한 모든 노드의 차수가 2개로 이루어져 있는 경우를 의미한다. 이 경우 해당 차수에 몇 개의 노드가 존재하는지 바로 알 수 있으므로 노드의 개수를 파악할 때 용이하다.
 
@@ -116,7 +116,7 @@ leaf node : H, I, J, K, L, M, N, O
 
 ### 완전 이진 트리 (Complete Binary Tree)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/861e0405-a653-4894-931e-a6a563dd17b3/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/861e0405-a653-4894-931e-a6a563dd17b3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061225Z&X-Amz-Expires=86400&X-Amz-Signature=abc4b113ed22e54e841bd2c0c4f8119748b4639fa95c7d7226cd84a4a040a04c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 `포화 이진 트리`와 같은 개념으로 트리를 생성하지만, 모든 노드가 왼쪽부터 차근차근 생성되는 이진 트리를 의미한다. (힙 정렬은 완전 이진 트리의 일종)
 
