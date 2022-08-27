@@ -13,4 +13,16 @@ for (let i = 1; i <= input[0]; i++) {
 
 실제로 console.log로 다 출력하니까 시간 초과가 나왔다.
 
+```javascript
+const input = require("fs").readFileSync(0).toString().trim().split("\n");
+let answer = "";
+for (let i = 1; i <= input[0]; i++) {
+  let num = input[i].split(" ");
+  answer += Number(num[0]) + Number(num[1]) + "\n";
+}
+console.log(answer);
+```
+
 그래서 문제를 풀 때 answer 변수를 빈 문자열로 선언하고 마지막에 개행문자(\n)를 써서 해결했다.
+
+앞으로 콘솔로 다 출력하기보단 문자열로 받고 개행문자를 쓰는 방식으로 해야겠다.
