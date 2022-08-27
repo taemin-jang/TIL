@@ -20,7 +20,6 @@
 //     sum += num[0] * num[1];
 //     index++;
 //   }
-//   console.log(sum);
 //   if (sum === Number(input[0])) {
 //     console.log("Yes");
 //   } else {
