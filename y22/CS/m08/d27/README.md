@@ -46,7 +46,7 @@ Tree의 특성을 이해해보자
 
    각 루트를 순차적으로 먼저 방문하는 방식이다.
 
-   ![Preorder-traversal.gif]https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5850bf23-7506-44ec-8aa3-2392445157c0/Preorder-traversal.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061059Z&X-Amz-Expires=86400&X-Amz-Signature=b3d58d9c12475788041f205475c7c9a01e1cb1d5d88a66510fc0332501dd5ab5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Preorder-traversal.gif%22&x-id=GetObject)
+   ![Preorder-traversal.gif](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5850bf23-7506-44ec-8aa3-2392445157c0/Preorder-traversal.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220827T061059Z&X-Amz-Expires=86400&X-Amz-Signature=b3d58d9c12475788041f205475c7c9a01e1cb1d5d88a66510fc0332501dd5ab5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Preorder-traversal.gif%22&x-id=GetObject)
 
    루트노드 → 왼쪽 서브트리 → 오른쪽 서브트리 순서로 순회하는 방식이며
 
