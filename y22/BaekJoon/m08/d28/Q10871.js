@@ -6,21 +6,29 @@ const rl = require("readline").createInterface({
 });
 
 let input = [];
-let answer = "";
-let i = 0;
+let [n, x] = [0, 0];
 rl.on("line", (line) => {
   input.push(line);
+  [n, x] = input[0].split(" ").map((el) => Number(el));
+  if (input.length === 2) {
+    rl.close();
+  }
 });
 
 rl.on("close", () => {
-  let [n, x] = input[0].split(" ").map((el) => Number(el));
   let num = input[1].split(" ").map((el) => Number(el));
-  while (i < num.length) {
-    if (num[i] < x) {
-      answer += num[i] + " ";
-    }
-    i++;
-  }
-  console.log(answer);
+
+  const answer = num.filter((el) => x > el);
+
+  console.log(answer.join(" "));
   process.exit();
 });
+
+// let input = require('fs').readFileSync(0).toString().split('\n');
+
+// let max = Number(input[0].split(' ')[1]);
+// let arr = input[1].split(' ').map(x => Number(x));
+
+// const answer = arr.filter(v => max > v);
+
+// console.log(answer.join(' '));
