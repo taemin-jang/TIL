@@ -40,3 +40,43 @@ console.log(elements.join("-"));
 ```
 
 위 2개의 함수를 이용하면 좀 더 완벽하게 풀 수 있고, 가독성도 좋은 것 같다.
+
+## 10952번 A+B-5
+
+includes()는 하나의 문자열이 다른 문자열에 포함되어 있는지를 판별하고, 그 결과를 true 또는 false로 반환해준다.
+
+또는 배열이 특정 요소를 포함하고 있는지 판별하고, 그 결과를 true 또는 false로 반환해준다.
+
+### includes() 예시
+
+- 문자열
+
+```jsx
+const sentence = "The quick brown fox jumps over the lazy dog.";
+
+const word = "fox";
+
+console.log(
+  `The word "${word}" ${
+    sentence.includes(word) ? "is" : "is not"
+  } in the sentence`
+);
+// expected output: "The word "fox" is in the sentence"
+```
+
+- 배열
+
+```jsx
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// expected output: true
+
+const pets = ["cat", "dog", "bat"];
+
+console.log(pets.includes("cat"));
+// expected output: true
+
+console.log(pets.includes("at"));
+// expected output: false
+```
