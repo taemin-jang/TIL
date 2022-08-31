@@ -49,7 +49,7 @@
 - 자연스레 입력 배열의 맨 끝 인덱스에는 가장 큰 값인 7이 위치하게 된다.
   7은 이미 마지막 노드로 자리를 확정 받은 상태라 다음 힙 생성 알고리즘을 적용시킬 때 굳이 7을 비교할 필요가 없다. [1, 6, 3, 2]에 힙 생성 알고리즘을 적용하여 최대 힙을 구성해주자.
 
-      ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5c5c8134-cd70-4104-9dc2-e54228097f01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220831T111325Z&X-Amz-Expires=86400&X-Amz-Signature=9218d8764b5ce546565b8a0cd620c7c524ceb6f8abbe73db52838cb8cf35f49b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+  ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5c5c8134-cd70-4104-9dc2-e54228097f01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220831T111325Z&X-Amz-Expires=86400&X-Amz-Signature=9218d8764b5ce546565b8a0cd620c7c524ceb6f8abbe73db52838cb8cf35f49b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - 루트 노드 6을 마지막 노드 2와 값을 비교한다.
 
