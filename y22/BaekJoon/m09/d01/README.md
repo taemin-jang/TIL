@@ -98,7 +98,7 @@ const x = 10;
 const y = -1;
 
 console.log(+x);
-// expected output: 1
+// expected output: 10
 
 console.log(+y);
 // expected output: -1
