@@ -4,7 +4,9 @@ const file =
   process.platform === "linux" ? "/dev/stdin" : "./y22/BaekJoon/input.txt";
 
 const input = require("fs").readFileSync(file).toString().trim().split("\n");
+
 let answer = "";
+
 input.forEach((v, i) => {
   if (i >= 1) {
     let num = v.split(" ");
