@@ -26,3 +26,22 @@ input.forEach((v, i) => {
   answer.push(+v);
 });
 ```
+
+## 5622번 다이얼
+
+나는 if문에 `string.includes()`를 사용해서 하나하나 체크했는데
+
+다른 사람 풀이를 보니까 객체에다가 넣어주니까 더 보기 좋은 것 같다.
+
+```js
+const dialObj = {
+  3: "ABC",
+  4: "DEF",
+  5: "GHI",
+  6: "JKL",
+  7: "MNO",
+  8: "PQRS",
+  9: "TUV",
+  10: "WXYZ",
+};
+```
