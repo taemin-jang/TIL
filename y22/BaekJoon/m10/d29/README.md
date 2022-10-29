@@ -19,3 +19,7 @@ Lv0 ~ Lv2, Lv3까지 올해 최대한 풀어보고 내년 코딩테스트를 준
 ## 3. (프로그래머스) 두 수의 곱
 
 [두 수의 곱](https://school.programmers.co.kr/learn/courses/30/lessons/120804)
+
+## 4. (프로그래머스) 몫 구하기
+
+[몫 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120805)
