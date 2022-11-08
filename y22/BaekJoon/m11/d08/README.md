@@ -15,3 +15,7 @@ map()을 사용하여 풀었다.
 ## 9. (프로그래머스) 나머지 구하기
 
 [나머지 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120810)
+
+## 10. (프로그래머스) 중앙값 구하기
+
+[중앙값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120811)
