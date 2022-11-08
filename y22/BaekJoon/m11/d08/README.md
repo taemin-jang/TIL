@@ -11,3 +11,7 @@
 [배열 두 배 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/120809)
 
 map()을 사용하여 풀었다.
+
+## 9. (프로그래머스) 나머지 구하기
+
+[나머지 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120810)
