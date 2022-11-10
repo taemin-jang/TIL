@@ -1,0 +1,5 @@
+# 2022-11-10
+
+## 12. (프로그래머스) 짝수는 싫어요
+
+[짝수는 싫어요](https://school.programmers.co.kr/learn/courses/30/lessons/120813)
