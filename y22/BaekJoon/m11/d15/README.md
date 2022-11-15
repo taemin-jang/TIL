@@ -21,3 +21,9 @@ repeat()는 String.repeat(count) 이런식으로 사용되는데 count에는 Str
 arr[num%2] += 1; 이런식으로 푼 사람도 있었다.
 
 보는데 와..밖에 안나왔다 나도 더 분발해야지
+
+## 24. (프로그래머스) 문자 반복 출력하기
+
+[문자 반복 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/120825)
+
+아.. 방금 repeat() 배웠는데 까먹고 안썼다.. 정신차리자
