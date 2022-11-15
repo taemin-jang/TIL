@@ -15,3 +15,7 @@
 [나이 출력](https://school.programmers.co.kr/learn/courses/30/lessons/120820)
 
 2023이라는 고정적인 숫자가 아닌 New.Date를 사용해서 푸는 사고를 가져야겠다.
+
+## 20. (프로그래머스) 배열 뒤집기
+
+[배열 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/120821)
