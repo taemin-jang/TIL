@@ -11,3 +11,7 @@
 ## 26. (프로그래머스) 각도기
 
 [각도기](https://school.programmers.co.kr/learn/courses/30/lessons/120829)
+
+## 27. (프로그래머스) 양꼬치
+
+[양꼬치](https://school.programmers.co.kr/learn/courses/30/lessons/120830)
