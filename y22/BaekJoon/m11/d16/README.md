@@ -15,3 +15,7 @@
 ## 27. (프로그래머스) 양꼬치
 
 [양꼬치](https://school.programmers.co.kr/learn/courses/30/lessons/120830)
+
+## 28. (프로그래머스) 짝수의 합
+
+[짝수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120831)
