@@ -3,3 +3,7 @@
 ## 29. (프로그래머스) 배열 자르기
 
 [배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/120833)
+
+## 30. (프로그래머스) 외계행성의 나이
+
+[외계행성의 나이](https://school.programmers.co.kr/learn/courses/30/lessons/120834)
