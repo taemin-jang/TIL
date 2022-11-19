@@ -15,3 +15,7 @@
 fill(Array(n))처럼 fill 안에 배열을 만들어 줌으로써
 
 Array(Math.floor(num_list.length/n)).fill(Array(n)) 2차원 배열을 만들었다.
+
+## 39. (프로그래머스) 공 던지기
+
+[공 던지기](https://school.programmers.co.kr/learn/courses/30/lessons/120843)
