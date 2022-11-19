@@ -19,3 +19,9 @@ Array(Math.floor(num_list.length/n)).fill(Array(n)) 2차원 배열을 만들었�
 ## 39. (프로그래머스) 공 던지기
 
 [공 던지기](https://school.programmers.co.kr/learn/courses/30/lessons/120843)
+
+## 40. (프로그래머스) 배열 회전시키기
+
+[배열 회전시키기](https://school.programmers.co.kr/learn/courses/30/lessons/120844)
+
+내장 함수인 splice, pop, push, shift를 활용해서 풀었다.
