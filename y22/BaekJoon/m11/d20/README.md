@@ -7,3 +7,7 @@
 ## 42. (프로그래머스) 합성수 찾기
 
 [합성수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/120846)
+
+## 43. (프로그래머스) 최댓값 만들기(1)
+
+[최댓값 만들기(1)](https://school.programmers.co.kr/learn/courses/30/lessons/120847)
