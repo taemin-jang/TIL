@@ -61,3 +61,11 @@ sort() 사용하여 배열 정렬을 했다.
 ## 55. (프로그래머스) 암호 해독
 
 [암호 해독](https://school.programmers.co.kr/learn/courses/30/lessons/120892)
+
+## 56. (프로그래머스) 대문자와 소문자
+
+[대문자와 소문자](https://school.programmers.co.kr/learn/courses/30/lessons/120893)
+
+나는 문자를 아스키 코드로 받아와서 만약 대문자이면 32를 더하고 다시 문자로 반환하고, 소문자이면 32를 빼서 다시 문자로 변환해주었다.
+
+그런데 그냥 toUpperCase()와 toLowerCase()를 사용하면 쉽게 풀 수 있었다.
