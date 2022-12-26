@@ -47,3 +47,9 @@ set 객체를 이용하여 풀었다. set은 중복을 허용하지 않으므로
 ## 63. (프로그래머스) 문자열 계산하기
 
 [문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902)
+
+## 64. (프로그래머스) 배열의 유사도
+
+[배열의 유사도](https://school.programmers.co.kr/learn/courses/30/lessons/120903)
+
+set()은 중복을 허용하지 않는 특징을 사용해서 s1을 다 넣어놓고 s2도 set에 넣고 나면 s1과 s2의 길이를 더한 값에서 set의 크기를 빼면 중복된 값만큼 나오게 된다.
