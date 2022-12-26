@@ -43,3 +43,7 @@ set 객체를 이용하여 풀었다. set은 중복을 허용하지 않으므로
 `let arr = [...array]` 배열을 스프레드 연산자를 이용해 깊은 복사를 해서 arr.sort()해도 array에 값은 변하지 않게 했다.
 
 다른 사람들은 Math.max()를 이용해 풀었다. 나도 참고해야겠다.
+
+## 63. (프로그래머스) 문자열 계산하기
+
+[문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902)
