@@ -31,3 +31,7 @@ replaceAll을 쓴 이유는 중복되는 숫자가 있을 경우 다 바꿔줘�
 [약수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120897)
 
 set 객체를 이용하여 풀었다. set은 중복을 허용하지 않으므로 1부터 n까지 돌려서 나머지가 0인 값을 넣어주면 알아서 중복은 안들어가므로 set을 사용했다.
+
+## 61. (프로그래머스) 편지
+
+[편지](https://school.programmers.co.kr/learn/courses/30/lessons/120898)
