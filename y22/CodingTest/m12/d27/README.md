@@ -11,3 +11,7 @@
 ## 67. (프로그래머스) 자릿수 더하기
 
 [자릿수 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/120906)
+
+## 68. (프로그래머스) OX 퀴즈
+
+[OX 퀴즈](https://school.programmers.co.kr/learn/courses/30/lessons/120907)
