@@ -7,3 +7,7 @@
 ## 66. (프로그래머스) n의 배수 고르기
 
 [n의 배수 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/120905)
+
+## 67. (프로그래머스) 자릿수 더하기
+
+[자릿수 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/120906)
