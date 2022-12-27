@@ -27,3 +27,7 @@
 ## 71. (프로그래머스) 세균 증식
 
 [세균 증식](https://school.programmers.co.kr/learn/courses/30/lessons/120910)
+
+## 72. (프로그래머스) 문자열 정렬하기 (2)
+
+[문자열 정렬하기 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/120911)
