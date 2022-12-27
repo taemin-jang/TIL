@@ -15,3 +15,7 @@
 ## 68. (프로그래머스) OX 퀴즈
 
 [OX 퀴즈](https://school.programmers.co.kr/learn/courses/30/lessons/120907)
+
+## 69. (프로그래머스) 문자열안에 문자열
+
+[문자열안에 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/120908)
