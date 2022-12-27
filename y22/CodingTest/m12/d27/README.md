@@ -23,3 +23,7 @@
 ## 70. (프로그래머스) 제곱수 판별하기
 
 [제곱수 판별하기](https://school.programmers.co.kr/learn/courses/30/lessons/120909)
+
+## 71. (프로그래머스) 세균 증식
+
+[세균 증식](https://school.programmers.co.kr/learn/courses/30/lessons/120910)
