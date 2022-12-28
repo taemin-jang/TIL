@@ -7,3 +7,7 @@
 ## 74. (프로그래머스) 잘라서 배열로 저장하기
 
 [잘라서 배열로 저장하기](https://school.programmers.co.kr/learn/courses/30/lessons/120913)
+
+## 75. (프로그래머스) 중복된 숫자 개수
+
+[중복된 숫자 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120583)
