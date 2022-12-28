@@ -15,3 +15,7 @@
 ## 76. (프로그래머스) 머쓱이보다 키 큰 사람
 
 [머쓱이보다 키 큰 사람](https://school.programmers.co.kr/learn/courses/30/lessons/120585)
+
+## 77. (프로그래머스) 직사각형 넓이 구하기
+
+[직사각형 넓이 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120860)
