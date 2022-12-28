@@ -19,3 +19,7 @@
 ## 77. (프로그래머스) 직사각형 넓이 구하기
 
 [직사각형 넓이 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120860)
+
+## 78. (프로그래머스) 캐릭터의 좌표
+
+[캐릭터의 좌표](https://school.programmers.co.kr/learn/courses/30/lessons/120861)
