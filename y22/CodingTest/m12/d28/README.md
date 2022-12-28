@@ -23,3 +23,7 @@
 ## 78. (프로그래머스) 캐릭터의 좌표
 
 [캐릭터의 좌표](https://school.programmers.co.kr/learn/courses/30/lessons/120861)
+
+## 79. (프로그래머스) 최댓값 만들기 (2)
+
+[최댓값 만들기 (2)](https://school.programmers.co.kr/learn/courses/30/lessons/120862)
