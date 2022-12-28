@@ -11,3 +11,7 @@
 ## 75. (프로그래머스) 중복된 숫자 개수
 
 [중복된 숫자 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120583)
+
+## 76. (프로그래머스) 머쓱이보다 키 큰 사람
+
+[머쓱이보다 키 큰 사람](https://school.programmers.co.kr/learn/courses/30/lessons/120585)
