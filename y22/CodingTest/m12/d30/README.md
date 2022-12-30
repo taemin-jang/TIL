@@ -75,3 +75,21 @@ function solution(sides) {
 두번째 경우 => 큰 값(11) + 작은 값(8) = 19 - 큰 값(11) - 자기 자신(1) = 7 => 즉 작은 값(8) - 1 = 7
 
 따라서 작은 값 + 작은 값 - 1이란 결과가 나온다.
+
+## 84. (프로그래머스) 외계어 사전
+
+[외계어 사전](https://school.programmers.co.kr/learn/courses/30/lessons/120869)
+
+```js
+function solution(spell, dic) {
+  let set = new Set(dic);
+  spell.forEach((v, i) => {
+    dic.filter((val) => (val.includes(v) ? false : set.delete(val)));
+  });
+  return set.size ? 1 : 2;
+}
+```
+
+우선 Set()에 dic 값들을 넣어주었다. 그러고 spell을 for문 돌려서 dic 값에 spell 값이 포함된다면 false, 안된다면 delete로 지워주었다.
+
+그래서 set.size 값이 1이상이라면 1을 리턴, 아니라면 2를 리턴해주었다.
