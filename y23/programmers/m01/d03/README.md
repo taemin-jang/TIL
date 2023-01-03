@@ -85,3 +85,53 @@ function solution(babbling) {
 정규식으로 옹알이 하는 단어를 "" 빈 문자열로 대체해주었다.
 
 그래서 filter를 사용하여 빈 문자열의 개수 리턴해주면 된다.
+
+## 92. (lv0) 로그인 성공? Time : 10m
+
+[로그인 성공?](https://school.programmers.co.kr/learn/courses/30/lessons/120883)
+
+```js
+function solution(id_pw, db) {
+  let isId = false;
+  let isPw = false;
+
+  db.forEach((v) => {
+    if (v[0] === id_pw[0]) {
+      isId = true;
+      if (v[1] === id_pw[1]) {
+        isPw = true;
+      }
+    }
+  });
+  if (isId) {
+    if (isPw) {
+      return "login";
+    } else {
+      return "wrong pw";
+    }
+  } else {
+    return "fail";
+  }
+}
+```
+
+어렵지 않은 문제였는데 기본적인 실수를 해서 조금 걸렸다.
+
+```js
+db.forEach((v) => {
+  if (v[0] === id_pw[0]) {
+    isId = true;
+  }
+  if (v[1] === id_pw[1]) {
+    isPw = true;
+  }
+});
+```
+
+맨 처음에 아무생각없이 이렇게 if문 2개를 따로 분기해서 비밀번호랑 아이디를 비교했었다.
+
+저렇게 되면 아이디가 만약 아닌데 비밀번호가 맞을 경우 isPw는 true가 되어버린다.
+
+그러고 나중에 아이디가 맞고 비밀번호는 아닌경우에 원래 같은 경우는 'wrong pw'가 되어야하는데 이전에 isPw가 true였기 때문에 login이 되어버린다
+
+따라서 비밀번호 체크는 아이디가 맞을 경우에만 체크해야하므로 아이디 if안에 들어가야한다.
