@@ -1,6 +1,6 @@
 # 2023-01-03
 
-## 89. (프로그래머스) 특이한 정렬
+## 89. (lv0) 특이한 정렬 Time : 2Day
 
 [특이한 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/120880)
 
@@ -52,3 +52,20 @@ mdn에서 sort에 대해 봤는데 평소에 하던 오름차순 a-b 이런식�
 || b - a를 해준 이유는 직접 해보니까 만약 안해줬을 때 값의 차이가 같을 경우 오름차순으로 정렬이 된다.
 
 그래서 b - a를 해줌으로써 내림차순으로 정렬해준 것이다.
+
+## 90. (lv0) 등수 매기기 Time : 6m
+
+[등수 매기기](https://school.programmers.co.kr/learn/courses/30/lessons/120882)
+
+```js
+function solution(score) {
+  let average = score.map((v) => (v[0] + v[1]) / 2);
+  return average.map((value) => {
+    return average.filter((v) => v > value).length + 1;
+  });
+}
+```
+
+우선 map()을 사용하여 점수의 평균을 average 배열에 넣어주었다.
+
+그러고 average 배열을 먼저 map()으로 value값을 가져온 후 다시 filter()를 사용하여 value 값보다 큰 값만 뽑은 개수에 +1을 해주면 된다.
