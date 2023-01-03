@@ -69,3 +69,19 @@ function solution(score) {
 우선 map()을 사용하여 점수의 평균을 average 배열에 넣어주었다.
 
 그러고 average 배열을 먼저 map()으로 value값을 가져온 후 다시 filter()를 사용하여 value 값보다 큰 값만 뽑은 개수에 +1을 해주면 된다.
+
+## 91. (lv0) 옹알이 Time : 3m
+
+[옹알이](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
+
+```js
+function solution(babbling) {
+  return babbling
+    .map((v) => v.replace(/aya|ye|woo|ma/g, ""))
+    .filter((v) => v === "").length;
+}
+```
+
+정규식으로 옹알이 하는 단어를 "" 빈 문자열로 대체해주었다.
+
+그래서 filter를 사용하여 빈 문자열의 개수 리턴해주면 된다.
