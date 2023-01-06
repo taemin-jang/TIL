@@ -31,3 +31,13 @@ A를 answer 배열에 담고, 만약 answer와 B의 값이 같지 않다면 answ
 `let solution=(a,b)=>(b+b).indexOf(a)` 이 풀이를 해보면 B의 문자열을 연속해서 연결했을 때 A의 값이 있는 부분의 index값을 리턴하는 것이다.
 
 이것을 보고 진짜 다양한 풀이가 많구나라고 느꼈고, 그렇게 생각하도록 노력해야겠다.
+
+## 98. (lv0) 종이 자르기 Time : 1m
+
+[종이 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/120922)
+
+```js
+function solution(M, N) {
+  return M * N - 1;
+}
+```
